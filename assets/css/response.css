@@ -8,6 +8,7 @@
 }
 /* tablet and mobile */
 @media  (max-width: 1023px) {
+
     .app{
         padding-left: 12px;
         padding-right: 12px;
@@ -39,6 +40,13 @@
     .header_mobile-contact{
         display: block;
     }
+    .detail-product{
+        padding-bottom: 30px;
+    }
+    .hotline-phone-bar{
+        display: none;
+    }
+   
 }
 /* tablet  */
 @media (min-width: 740px) and (max-width: 1023px) {

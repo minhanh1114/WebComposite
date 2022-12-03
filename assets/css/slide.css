@@ -7,21 +7,25 @@
     height: 448px;
     position: relative;
     overflow: hidden; /* <===  */
-    border-radius: 15px;
+    /* border-radius: 15px; */
+    border-radius: 5px;
+
   }
   
   .slider-content .slide {
     width: 100%;
     max-width: 950px;
-    height: 448px;
+    height: 100%;
     position: absolute;
     transition: all 0.5s;
+    border-radius: 5px;
   }
   
   .slider-content .slide img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    border-radius: 5px;
   }
   
   .slider-content .btn-slide {
@@ -54,6 +58,7 @@
   }
 /*  */
 .slide-two{
+  margin-top: 40px;
   position: relative;
 }
 .slide-two_heading {

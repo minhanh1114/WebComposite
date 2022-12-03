@@ -42,3 +42,10 @@ barContainer.addEventListener('click', function(e){
      e.stopPropagation();
     
 });
+
+//  click icon sản phẩm moblie nav
+document.querySelector('.menu_mobile-icon').addEventListener('click', function(e){
+    document.querySelector('.menu_mobile_submenu').classList.toggle('open_bar-mobile');
+    
+});
+// click 
